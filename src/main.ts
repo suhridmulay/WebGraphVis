@@ -2,8 +2,6 @@ import "./style.css";
 
 const app = document.querySelector<HTMLDivElement>("#app")!;
 
-let scale = window.devicePixelRatio || 1;
-
 // Create the drawing canvas
 const canvas = document.createElement("canvas");
 // Position it absolutely
